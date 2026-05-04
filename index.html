@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -370,14 +371,17 @@
       </p>
       <div class="cards-grid">
         <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-dna"></i></div>
           <h3>Multiple input types</h3>
           <p>Accepts HGVS notation, rsIDs, and OMIM codes (covering standard ways to describe a disease variant).</p>
         </div>
         <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-rotate"></i></div>
           <h3>Automated retrieval</h3>
           <p>Fetches genomic sequences from NCBI databases and applies the mutation to generate the target context.</p>
         </div>
         <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-ranking-star"></i></div>
           <h3>Multi-metric ranking</h3>
           <p>Ranks candidates by GC content, homopolymer count (four or more consecutive identical bases, e.g. AAAA or GGGG), Bowtie off-target alignments, and ViennaRNA structure free energy.</p>
         </div>
